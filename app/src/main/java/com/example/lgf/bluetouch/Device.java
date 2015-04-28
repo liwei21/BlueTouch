@@ -15,6 +15,8 @@ import android.util.Log;
 public class Device extends BroadcastReceiver {
     private Handler handler;
 
+
+
     public Device(Handler handler) {
         this.handler = handler;
     }
