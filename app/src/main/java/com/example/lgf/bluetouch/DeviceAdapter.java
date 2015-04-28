@@ -23,6 +23,8 @@ public class DeviceAdapter extends RecyclerView.Adapter<DeviceAdapter.ViewHolder
     public DeviceAdapter(Context context, List<BluetoothDevice> list) {
         this.context = context;
         this.list = list;
+
+
         if (context instanceof  View.OnClickListener){
             listener= ((View.OnClickListener) context);
 
